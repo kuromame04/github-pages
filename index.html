@@ -53,6 +53,11 @@
             display: flex;
         };
 </style>
+<script>
+    if(navigator.hardwareConcurrency>12){
+        alert(`お前んPC、おっかねもちー   ${navigator.hardwareConcurrency}コアめ、`);
+    }
+</script>
     <nav class="navbar navbar-expand navbar-dark mb-3" style="background-color: #003c5c;">
         <a class="navbar-brand" href="https://web.kuromame048.net">MAMEWEBSITE</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +74,7 @@
         </div>
     </nav>
     <div class="text">
-        <h1>まーめです</h1>
+        <marquee behavior="alternate" scrollamount="10"><h1>ようこそ！ まーめのさいとへ！</h1></marquee>
         <div class="bio">
         <h2>われの自己紹介</h2>
         <h4>ワイはなんていうか最近色々し始めたうんこ</h4>
@@ -100,7 +105,7 @@
                 </a>
                 <li>
                 <a href="https://GadaiArchive.replit.app">
-                    <p>Gadaiさんのやつ<img  src="https://gadaiarchive.replit.app/image/logo.png"></p>
+                    <p>Gadaiさんのやつ<img src="https://gadaiarchive.replit.app/image/logo.png"></p>
                 </a>
                 </li>
                 <li>
