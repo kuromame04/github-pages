@@ -97,6 +97,9 @@ body{
 	}
 }
 @media(prefers-color-scheme: light){
+    body {
+        background-color: rgb(207, 207, 207);
+    }
     .maintext{
         top: 20vh;
         position: relative;
