@@ -106,7 +106,7 @@ body{
         margin:0;
         padding: 0;
         text-align: left;
-        height: 100vh;
+        height: 100%;
         font-size: 1.5vw;
         background-color:  rgba(207, 207, 207, 0.9);
         backdrop-filter: blur(15px);
